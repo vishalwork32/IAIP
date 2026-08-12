@@ -1,11 +1,16 @@
 # IAIP Internship Projects
 
-## Task 1 — Sales Data Analysis
+Data Analytics internship projects completed as part of the Intern Alpha Data Analytics Internship.
 
-This project analyzes sales data to identify sales trends, product performance, seasonal patterns, hourly sales activity, and city-wise performance.
+## Projects
 
-### Analysis Covered
+### Task 1 — Sales Data Analysis
 
+Analysis of sales data to identify sales trends, product performance, seasonal patterns, hourly sales activity, and city-wise performance.
+
+**Tools:** Python, Pandas, Matplotlib, Seaborn, Jupyter Notebook
+
+**Key Areas:**
 - Data Cleaning
 - Overall Sales Performance
 - Product Performance
@@ -16,75 +21,49 @@ This project analyzes sales data to identify sales trends, product performance, 
 - City-wise Sales Performance
 - Average Order Value
 
-### Tools Used
+👉 [View Task 1 — Sales Data Analysis](./Task-1-Sales-Data-Analysis/)
 
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+---
 
-### Project Files
+### Task 2 — Customer Segmentation
 
-- `sales_analysis.ipynb` — Complete analysis and visualizations
-- `Sales Data.csv` — Dataset used for the analysis
+Customer segmentation using K-Means clustering based on purchasing behavior.
 
-### Internship
-
-**Intern Alpha — Data Analytics Internship**
-
-**Task:** Sales Data Analysis
-
-
-## Task 2 – Customer Segmentation
-
-This project segments customers based on their purchasing behavior using K-Means clustering.
-
-### Objective
-
-Identify distinct customer groups using:
+**Features Used:**
 - Total Revenue
 - Total Quantity Purchased
 - Number of Orders
 
-### Analysis Covered
+**Analysis Includes:**
+- Data Cleaning
+- Customer-Level Aggregation
+- Feature Scaling
+- K-Means Clustering
+- Elbow Method
+- Silhouette Score
+- Customer Segment Visualization
+- Business Recommendations
 
-- Data loading and inspection
-- Data cleaning
-- Customer-level aggregation
-- Feature scaling using StandardScaler
-- K-Means clustering
-- Elbow Method for selecting the number of clusters
-- Silhouette Score evaluation
-- Customer segment visualization
-- Segment-wise business analysis
+👉 [View Task 2 — Customer Segmentation](./Task-2-Customer-Segmentation/)
 
-### Customer Segments
+---
 
-The analysis identified four customer segments:
+## Internship
 
-- **Cluster 0 – Low-Value Customers:** Largest customer group with relatively low spending and fewer orders.
-- **Cluster 3 – Regular Customers:** Customers with higher purchasing activity and order frequency.
-- **Cluster 2 – High-Value Customers:** Small group with significantly higher revenue and purchasing activity.
-- **Cluster 1 – VIP Customers:** Very small group showing exceptionally high purchasing activity and revenue.
+**Intern Alpha — Data Analytics Internship**
 
-### Business Recommendations
+**Projects Completed:** 2
 
-- Use personalized promotions to encourage low-value customers to purchase more frequently.
-- Provide loyalty benefits to regular customers.
-- Offer exclusive services and promotions to high-value customers.
-- Maintain strong relationships with VIP customers.
-- Use customer segmentation to create targeted marketing strategies.
+## Repository Structure
 
-### Tools Used
-
-- Python
-- Pandas
-- Scikit-learn
-- Matplotlib
-- Jupyter Notebook
-
-### Project Files
-
-- `customer_segmentation.ipynb` – Complete customer segmentation analysis
-- `Online Retail.xlsx` – Dataset used for the analysis
+```text
+IAIP/
+├── Task-1-Sales-Data-Analysis/
+│   ├── README.md
+│   └── sales_analysis.ipynb
+│
+├── Task-2-Customer-Segmentation/
+│   ├── README.md
+│   └── customer_segmentation.ipynb
+│
+└── README.md
